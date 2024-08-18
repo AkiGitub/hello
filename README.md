@@ -167,7 +167,7 @@ You select this Patient:
 +-----------+--------------+---------------+--------+-----------+--------+
 Enter Pateint Updating Data===========================================
 Enter Patient Code: 2
- Patient Already inserted, You cannot use other code
+ Patient Already inserted, You cannot use other one code
  Enter Patient Code: 23
 Enter Patient Name: new name 
 Enter Patient Family: new family
