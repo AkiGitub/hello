@@ -93,7 +93,7 @@ when press 1:
 5. Back to the Main Menu
 
 ======================================================================
-
+ 
 Please select an option (1-5):
 
  with press 2 user can add pateint infromation: 
@@ -115,10 +115,15 @@ Press Enter to continue...
 to show result press 1 in the patient part:
 
 `+-----------+--------------+---------------+--------+-----------+--------+`
+
 `| PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |`
+
 `+-----------+--------------+---------------+--------+-----------+--------+`
+
 `|     1     |    davai     |     goaly     |   23   |   male    | 45456  |`
+
 `|    23     |     mina     |     jefri     |   34   |  female   | 345345 |`
+
 `+-----------+--------------+---------------+--------+-----------+--------+`
 
 Press Enter to continue...
