@@ -2,7 +2,8 @@
 ## _this a test 2
 * this a bluepoint
 
-  
+  Steps of Project
+  1- when program started, we see the main menu:
   ___________________________ Liver/Heart in Risk ______________________________ 
 1. Patients Entry Operations
 2. Labratories Data Operation
