@@ -156,6 +156,22 @@ Record Updated
 Press Enter to continue...
 
 ```
+But in Deleting the data, you can choice more than one row:
+
+```
+Enter Condition: PatAge>10
+You select this Patient:
++-----------+--------------+---------------+--------+-----------+---------+
+| PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel  |
++-----------+--------------+---------------+--------+-----------+---------+
+|     2     |     Mina     |     darr      |   34   |  female   | 435345  |
+|    23     |    David     |     Jefri     |   23   |   male    | 3453453 |
++-----------+--------------+---------------+--------+-----------+---------+
+Are You Sure To delete?("yes"or"y","n"or"no"):y
+Record deleted
+Press Enter to continue...
+```
+
 
 
 
