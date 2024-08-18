@@ -30,9 +30,9 @@ requirements.txt
 
 README.md
 
-shmatci of project:
+Schematic of the project::
 
-mainMenu ---> project ---> {PatientPart,LabinofPart,ResultPart} --->Services(Services_patient,Services_Labinfo)  ---> DynamicDB.py 
+(mainMenu) ---> (project) ---> {PatientPart,LabinofPart,ResultPart} <---> (Services(Services_patient,Services_Labinfo)) <---> (DynamicDB)
 
 ## Loging Of the Error(s)
 All errors of the project were saved in the file(s) located at Errors/error_(date now).txt 
@@ -172,8 +172,85 @@ Record deleted
 Press Enter to continue...
 ```
 
+==================================================================
+## section LAB DATA
+
+```
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+| PateintID | labID | BMI | TG | BP | HDL | LDL | GLCC | Fpg | HDLC | SGPT | WC | Cholesterol | sbp | dbp | GPT |
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+|     1     |   2   |  4  | 5  | 6  |  6  |  6  |  6   |  6  |  65  |  5   | 5  |      5      |  5  |  5  |  5  |
+|    45     |  45   |  4  | 3  | 4  |  5  |  6  |  23  | 45  |  34  |  34  | 34 |     34      | 34  | 34  | 34  |    
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+    
+Press Enter to continue...
+```
+ insert
+```
+Patient Lab Info Entry===========================================
+Enter Patient Code(must already exist): 2
+You must select patient id that already existed in the database
+Enter Patient Code(must already exist): 23
+Enter Lab ID: 1
+Enter BMI(1..70): 1
+Enter TG(1..1000): 23
+Enter BP(1..200): 23
+Enter HDL(1..200): 23
+Enter LDL(1..110):0
+Your entry must be in 1 and 110
+Enter LDL(1..110):23
+Enter GLCC(20..300): 34
+Enter Fpg(20..300): 34
+Enter HDLC(20..150): 34
+Enter SGPT(20..700): 34
+Enter WC(20.105): 34
+Enter Cholesterol(20..70): 34
+Enter sbp(1..230): 34
+Enter dbp(1..150): 34
+Enter GPT(20..1000): 34
+Data inserted
+Press Enter to continue...
+```
+update / delete is the same as patient part
 
 
+==================================================================
+## section Result Part
+In this section, user can check the result lab data, and detect he / she in risk is or not
+
+```
+==========================  Lab Result (your are Heart/Liver Risk or not) ===================
+ ---------------------------(your are Heart/Liver Risk or not) ------------------------------
+1. Select Based on the Patient Data
+2. Just Enter the Lab Data
+3. Back to the Main Menu.
+======================================================================
+```
+User can search base on the index or text(like age>10), that's mean, no need to 
+write exact field of database
+
+```
+Search based on Field(its number or partof it):
+Press q ot Q to Exit
+PateintID(0) PatFirstName(1) PatFamilyName(2) PatAge(3) PatGender(4) PatTel(5) 
+Enter Search Name/Index: 0
+Enter Field PateintID: 23
+Your Results is:
++-----------+--------------+---------------+--------+-----------+--------+
+| PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |
++-----------+--------------+---------------+--------+-----------+--------+
+|    23     |     mina     |     jefri     |   34   |  female   | 345345 |
++-----------+--------------+---------------+--------+-----------+--------+
+Your LAB Results is:
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+| PateintID | labID | BMI | TG | BP | HDL | LDL | GLCC | Fpg | HDLC | SGPT | WC | Cholesterol | sbp | dbp | GPT |
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+|    23     |   1   |  1  | 23 | 23 | 23  | 23  |  34  | 34  |  34  |  34  | 34 |     34      | 34  | 34  | 34  |
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+Enter labID:1
+ risk factor for heart disease in men and women Risk is High to fatty liver disease Because Of 
+( HDL < 40 )
+ Press Enter to continue...
+ ```
 
 
 
