@@ -173,7 +173,7 @@ Press Enter to continue...
 ```
 
 ==================================================================
-## section LAB DATA
+## Section LAB DATA
 
 ```
 +-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
@@ -214,7 +214,7 @@ update / delete is the same as patient part
 
 
 ==================================================================
-## section Result Part
+## Section Result Part
 In this section, user can check the result lab data, and detect he / she in risk is or not
 
 ```
@@ -251,8 +251,16 @@ Enter labID:1
 ( HDL < 40 )
  Press Enter to continue...
  ```
+Hint: The patient can have mutliple lab data, therefore the user must choice one of the result based on labID 
 
-
+The option of searching can be part of fields like:
+```
+PateintID(0) PatFirstName(1) PatFamilyName(2) PatAge(3) PatGender(4) PatTel(5) 
+Enter Search Name/Index: name
+your search based on :['PatFirstName', 'PatFamilyName']
+Enter Field PatFirstName: mina
+Enter Field PatFamilyName: jefri
+```
 
 
 
