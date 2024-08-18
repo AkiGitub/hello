@@ -23,4 +23,4 @@ if x<10:
 
 link:
 
-## [videos]((https://www.youtube.com/watch?v=Nj87GEXxhjc)
+## [videos](https://www.youtube.com/watch?v=Nj87GEXxhjc)
