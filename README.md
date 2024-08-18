@@ -5,7 +5,7 @@ Test My Regular express: https://pythex.org
 [Video]()
 
 ## Defination
-This project based on the user lab data, detect the pateint is in fatty liver or heart diseases.
+This project based on the user lab data, detect the pateint is in fatty liver or heart diseasse.
 All the lab and user inforamtion saved in database.
 
 Files of Project:
@@ -34,7 +34,7 @@ shmatci of project:
 
 mainMenu ---> project ---> {PatientPart,LabinofPart,ResultPart} --->Services(Services_patient,Services_Labinfo)  ---> DynamicDB.py 
 
-## Looging Of the Error(s)
+## Loging Of the Error(s)
 All errors of the project were saved in the file(s) located at Errors/error_(date now).txt 
 
 As seen: The location of the error is shown, for example, in the class deleteRecord, in the function deleteRecord, along with the error message.
@@ -58,23 +58,17 @@ for expmle `InsertData(self,tableName,**fields):` user can put any field based o
 
 # Usage
 with: python project.py : user sees the main menu as:
-
+```
                =================== Main Menu ===================
-
-___________________________ Liver/Heart in Risk ______________________________ 
-
+___________________________ Liver/Heart in Risk ______________________________
 1. Patients Entry Operations
-
 2. Labratories Data Operation
-
 3. The Patient's Laboratory Result
-
 4. Exit
 _______________________________________________________________________________
-
 Please select an option (1-4):
+```
 
-Please select an option (1-4):
 
 when press the wrong the programs shows:  your choice is not in the list
 
