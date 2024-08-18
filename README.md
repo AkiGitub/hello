@@ -137,12 +137,14 @@ Enter Condition: PatAge>20
 
 You select this Patient:
 
+```python
 +-----------+--------------+---------------+--------+-----------+--------+
 | PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |
 +-----------+--------------+---------------+--------+-----------+--------+
 |     1     |    davai     |     goaly     |   23   |   male    | 45456  |
 |    23     |     mina     |     jefri     |   34   |  female   | 345345 |
 +-----------+--------------+---------------+--------+-----------+--------+
+```
 
 You must selected just one Row
 
@@ -150,6 +152,33 @@ Enter Condition:
 
 As seen, for udadating only one row of the table is needed. Therefore, the user must select a condition that 
 result in a single row
+
+now we Enter `PateintID=1`
+
+and the program shows: 
+
+```python
+Enter Condition: PateintID=1
+You select this Patient:
++-----------+--------------+---------------+--------+-----------+--------+
+| PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |
++-----------+--------------+---------------+--------+-----------+--------+
+|     1     |    davai     |     goaly     |   23   |   male    | 45456  |
++-----------+--------------+---------------+--------+-----------+--------+
+Enter Pateint Updating Data===========================================
+Enter Patient Code: 2
+ Patient Already inserted, You cannot use other code
+ Enter Patient Code: 23
+Enter Patient Name: new name 
+Enter Patient Family: new family
+Enter Patient Age: 34
+Enter Patient Gender(male/female): male
+Enter Patient Tel: 456456
+ Record Updated
+ Press Enter to continue...
+
+```
+
 
 
 
