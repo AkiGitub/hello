@@ -113,6 +113,7 @@ Enter Patient Tel: 45456
 Press Enter to continue...
 
 to show result press 1 in the patient part:
+
 +-----------+--------------+---------------+--------+-----------+--------+
 | PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |
 +-----------+--------------+---------------+--------+-----------+--------+
