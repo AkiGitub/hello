@@ -35,11 +35,11 @@ shmatci of project:
 mainMenu ---> project ---> {PatientPart,LabinofPart,ResultPart} --->Services(Services_patient,Services_Labinfo)  ---> DynamicDB.py 
 
 ## Looging Of the Error(s)
-All error(s) occured in the project saved in file(s) in Errors/error_(data now).txt 
+All errors of the project were saved in the file(s) located at Errors/error_(date now).txt 
 
-as seen: Show the location of error, for exmaple in class in funvtion deleteRecord with the error message
+As seen: The location of the error is shown, for example, in the class deleteRecord, in the function deleteRecord, along with the error message.
 
-as an example:
+As an example:
 
 Error in Class/Function:( DB: deleteRecord )=====================================
 
@@ -56,7 +56,8 @@ the middle calss(,) are know the filelds and pass to the this class
 
 for expmle `InsertData(self,tableName,**fields):` user can put any field based on the table
 
-# Usages
+# Usage
+with: python project.py : user sees the main menu as:
 
                =================== Main Menu ===================
 
@@ -108,6 +109,46 @@ Enter Patient Age: 23
 Enter Patient Gender(male/female): male
 
 Enter Patient Tel: 45456
+
+Press Enter to continue...
+
+to show result press 1 in the patient part:
++-----------+--------------+---------------+--------+-----------+--------+
+| PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |
++-----------+--------------+---------------+--------+-----------+--------+
+|     1     |    davai     |     goaly     |   23   |   male    | 45456  |
+|    23     |     mina     |     jefri     |   34   |  female   | 345345 |
++-----------+--------------+---------------+--------+-----------+--------+
+
+Press Enter to continue...
+
+for updating press 3:
+
+Selcet from list is based on the condiotion(ex: PateintID=1)
+
+Enter Condition: 
+
+user can enter condition like PatAge>20
+
+Enter Condition: PatAge>20
+
+You select this Patient:
+
++-----------+--------------+---------------+--------+-----------+--------+
+| PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |
++-----------+--------------+---------------+--------+-----------+--------+
+|     1     |    davai     |     goaly     |   23   |   male    | 45456  |
+|    23     |     mina     |     jefri     |   34   |  female   | 345345 |
++-----------+--------------+---------------+--------+-----------+--------+
+
+You must selected just one Row
+
+Enter Condition:
+
+As seen, for udadating only one row of the table is needed. Therefore, the user must select a condition that 
+result in a single row
+
+
 
 
 
