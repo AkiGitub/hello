@@ -263,6 +263,21 @@ Enter Search Name/Index: name
 your search based on :['PatFirstName', 'PatFamilyName']
 Enter Field PatFirstName: mina
 Enter Field PatFamilyName: jefri
++-----------+--------------+---------------+--------+-----------+--------+
+| PateintID | PatFirstName | PatFamilyName | PatAge | PatGender | PatTel |
++-----------+--------------+---------------+--------+-----------+--------+
+|    23     |     mina     |     jefri     |   34   |  female   | 345345 |
++-----------+--------------+---------------+--------+-----------+--------+
+Your LAB Results is:
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+| PateintID | labID | BMI | TG | BP | HDL | LDL | GLCC | Fpg | HDLC | SGPT | WC | Cholesterol | sbp | dbp | GPT |
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+|    23     |   1   |  1  | 23 | 23 | 23  | 23  |  34  | 34  |  34  |  34  | 34 |     34      | 34  | 34  | 34  |
++-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
+Enter labID:1
+ risk factor for heart disease in men and women Risk is High to fatty liver disease Because Of 
+( HDL < 40 )
+ Press Enter to continue...
 ```
 
 
