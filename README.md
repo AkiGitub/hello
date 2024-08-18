@@ -253,7 +253,10 @@ Enter labID:1
  ```
 Hint: The patient can have mutliple lab data, therefore the user must choice one of the result based on labID 
 
-The option of searching can be part of fields like:
+## Dynamic Searching
+Filtering in the database can be dynamic, such as:
+When the user types a name, the list contains two fields: PatFirstName and PatFamilyName. Therefore, the filtering in the database is based on these two fields.
+
 ```
 PateintID(0) PatFirstName(1) PatFamilyName(2) PatAge(3) PatGender(4) PatTel(5) 
 Enter Search Name/Index: name
