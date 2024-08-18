@@ -24,3 +24,28 @@ if x<10:
 link:
 
 ## [videos](https://www.youtube.com/watch?v=Nj87GEXxhjc)
+
+# header
+## sub heading
+explain this headingsdfsdf
+(enter)
+sdfsdfsdfsdfsd sdfsd sdf
+- First bullet
+- Second bullet
+- Third bullet
+  - intened 
+
+[desr](url)
+fsgdgkjf `dfdsf` sdf
+```pythom
+   code
+```
+
+![image alternativ](url)
+text
+> bloakquote
+
+table
+|header1|header2|header3|
+| --- | --- | --- |
+| content | sdfa | sdfasdf|
