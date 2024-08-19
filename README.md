@@ -29,7 +29,7 @@ requirements.txt
 
 README.md
 
-Schematic of the project::
+**Schematic of the project**:
 
 (mainMenu) ---> (project) ---> {PatientPart,LabinofPart,ResultPart} <---> (Services(Services_patient,Services_Labinfo)) <---> (DynamicDB)
 
@@ -51,11 +51,8 @@ Error Message :Incorrect number of bindings supplied. The current statement uses
 
 ## dynamic database
 
-create the object with database name and table name and can insert/update/select/delete from database
-
-the middle calss(,) are know the filelds and pass to the this class
-
-for exapmle `InsertData(self,tableName,**fields):` user can put any field based on the table
+All database operations are performed dynamically, and the user only needs to define the name of the table and database in the class and define the fields of that table.For example, `InsertData(self, tableName, **fields)` allows the user to specify any field based on the table. like 
+`objDB.InsertData(super().tableName,PateintID=self.PateintID,labID=self.labID,BMI=self.BMI,TG=self.TG,BP=self.BP)`
 
 ## Database Tables
 In this project, two tables are seen: 
