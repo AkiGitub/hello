@@ -60,7 +60,7 @@ In this project, two tables are seen:
     2- tblLabData (n) #every person can have mulitple lab test
 
 # Usage
-with: ** python project.py ** : user sees the main menu as:
+with: **python project.py**: user sees the main menu as:
 ```
                =================== Main Menu ===================
 ___________________________ Liver/Heart in Risk ______________________________
@@ -71,7 +71,6 @@ ___________________________ Liver/Heart in Risk ______________________________
 _______________________________________________________________________________
 Please select an option (1-4):
 ```
-
 
 when press the wrong the programs shows:  your choice is not in the list
 
