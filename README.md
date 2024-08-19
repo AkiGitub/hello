@@ -5,10 +5,11 @@ Test My Regular express: https://pythex.org
 [Video]()
 
 ## Defination
-This project based on the user lab data, detect the pateint is in fatty liver or heart diseasse.
-All the lab and user inforamtion saved in database.
+This project based on user lab datat to detect the patient has fatty liver or heart disease.
 
-Files of Project:
+All lab and user inforamtion is saved in the database.
+
+**Files of Project**:
 
 project.py
 
