@@ -39,7 +39,7 @@ All errors of the project were saved in the file(s) located at Errors/error_(dat
 
 As seen: The location of the error is shown, for example, in the class deleteRecord, in the function deleteRecord, along with the error message.
 
-** As an example **:
+** As an example ** :
 
 Error in Class/Function:( DB: deleteRecord )=====================================
 
