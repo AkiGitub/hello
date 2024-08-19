@@ -60,7 +60,7 @@ In this project, two tables are seen:
     2- tblLabData (n) #every person can have mulitple lab test
 
 # Usage
-with: **python project.py**: user sees the main menu as:
+with **python project.py**: user sees the main menu as:
 ```
                =================== Main Menu ===================
 ___________________________ Liver/Heart in Risk ______________________________
@@ -107,17 +107,16 @@ to show result press 1 in the patient part:
 |     1     |    davai     |     goaly     |   23   |   male    | 45456  |
 |    23     |     mina     |     jefri     |   34   |  female   | 345345 |
 +-----------+--------------+---------------+--------+-----------+--------+
+Press Enter to continue...
 ```
 
-Press Enter to continue...
-
-for updating press 3:
+For updating press 3:
 ```
 Selcet from list is based on the condiotion(ex: PateintID=1)
 Enter Condition: 
 ```
 
-user can enter condition like PatAge>20
+user can enter condition like `PatAge>20`
 
 ```
 Enter Condition: PatAge>20
@@ -176,6 +175,18 @@ Press Enter to continue...
 
 ==================================================================
 ## Section LAB DATA
+In this section, the user enters lab data into the table and can delete and update the data.
+By pressing 2 in the main menu:
+```
+========================== Pateints LAB Operations ===================
+1. Show Patient LAB List (10 Patients)
+2. Insert Patient LAB Data
+3. Update Patient LAB Data
+4. Delete Patient LAB Data
+5. Back to the Main Menu
+======================================================================
+Please select an option (1-5):
+```
 
 ```
 +-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
