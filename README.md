@@ -35,11 +35,13 @@ Schematic of the project::
 (mainMenu) ---> (project) ---> {PatientPart,LabinofPart,ResultPart} <---> (Services(Services_patient,Services_Labinfo)) <---> (DynamicDB)
 
 ## Loging Of the Error(s)
-All errors of the project were saved in the file(s) located at Errors/error_(date now).txt 
+All errors of the project are saved in  files located at Errors/error_(date now).txt(e.g., 'errorLog_2024-08-12.txt', 
+
+'errorLog_2024-08-11.txt'). Every day's errors are logged in these files. These Errros are stored in descending date order.
 
 As seen: The location of the error is shown, for example, in the class deleteRecord, in the function deleteRecord, along with the error message.
 
-## As an example:
+As an example:
 
 Error in Class/Function:( DB: deleteRecord )=====================================
 
