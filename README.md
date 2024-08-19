@@ -39,7 +39,7 @@ All errors of the project were saved in the file(s) located at Errors/error_(dat
 
 As seen: The location of the error is shown, for example, in the class deleteRecord, in the function deleteRecord, along with the error message.
 
-As an example:
+** As an example **:
 
 Error in Class/Function:( DB: deleteRecord )=====================================
 
@@ -54,10 +54,15 @@ create the object with database name and table name and can insert/update/select
 
 the middle calss(,) are know the filelds and pass to the this class
 
-for expmle `InsertData(self,tableName,**fields):` user can put any field based on the table
+for exapmle `InsertData(self,tableName,**fields):` user can put any field based on the table
+
+## Database Tables
+In this project, two tables are seen: 
+    1- tblPatient (1) #Every patient must have one record in database with PatientID
+    2- tblLabData (n) #every person can have mulitple lab test
 
 # Usage
-with: python project.py : user sees the main menu as:
+with: ** python project.py ** : user sees the main menu as:
 ```
                =================== Main Menu ===================
 ___________________________ Liver/Heart in Risk ______________________________
