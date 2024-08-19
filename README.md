@@ -176,6 +176,7 @@ Press Enter to continue...
 ==================================================================
 ## Section LAB DATA
 In this section, the user enters lab data into the table and can delete and update the data.
+
 By pressing 2 in the main menu:
 ```
 ========================== Pateints LAB Operations ===================
@@ -187,7 +188,7 @@ By pressing 2 in the main menu:
 ======================================================================
 Please select an option (1-5):
 ```
-
+User can show the list of lab data for different patients:
 ```
 +-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+
 | PateintID | labID | BMI | TG | BP | HDL | LDL | GLCC | Fpg | HDLC | SGPT | WC | Cholesterol | sbp | dbp | GPT |
@@ -197,7 +198,7 @@ Please select an option (1-5):
 +-----------+-------+-----+----+----+-----+-----+------+-----+------+------+----+-------------+-----+-----+-----+    
 Press Enter to continue...
 ```
- insert
+Inserting data requires entering the patient code. If the patient code does not exist in the table, the program shows 'You must select patient id that already existed in the database' error. 
 ```
 Patient Lab Info Entry===========================================
 Enter Patient Code(must already exist): 2
@@ -223,12 +224,11 @@ Enter GPT(20..1000): 34
 Data inserted
 Press Enter to continue...
 ```
-update / delete is the same as patient part
-
+Updating or deleting data works the same way as in the patient section
 
 ==================================================================
 ## Section Result Part
-In this section, user can check the result lab data, and detect he / she in risk is or not
+In this section, the user can check the lab results and determine whether he or she at risk.
 
 ```
 ==========================  Lab Result (your are Heart/Liver Risk or not) ===================
